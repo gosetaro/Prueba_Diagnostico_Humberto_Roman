@@ -1,0 +1,1 @@
+Consiste en que al momento que 2 o más procesos deban acceder a un recurso compartido (ej una variable global) se excluyan los otros procesos que necesiten acceder a ese recurso, inhabilitando la interrupción durante las instrucciones que hagan uso de ese recurso
