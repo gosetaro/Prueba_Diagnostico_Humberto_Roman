@@ -1,0 +1,1 @@
+SELECT courses.name , courses.start_date , AVG(evaluations.score), STDEVP(evaluations.score), MIN(evaluations.score), MAX(evaluations.score) FROM evaluations, exams,courses WHERE evaluations.exam_fk = exams.pk, exams.course_fk = courses.pk GROUP BY courses.name and year(courses.start_date)
